@@ -1,4 +1,4 @@
-Release lens2.0 incorporates diversity into the RL framework to enable the selection of more accurate and parsimonious ensembles. Diversity is calculated between pairs of current and potential future state ensembles. The potential future ensemble that has the highest value of the diversity measure, i.e., is the most diverse with respect to the current ensemble, is the next state of the agent during the exploration phase of the RL process.
+Release lens2.0 incorporates diversity into the RL framework to enable the selection of more accurate and parsimonious ensembles. This version builds upon the previous version of lens (https://github.com/GauravPandeyLab/lens-2017). Diversity is calculated between pairs of current and potential future state ensembles. The potential future ensemble that has the highest value of the diversity measure, i.e., is the most diverse with respect to the current ensemble, is the next state of the agent during the exploration phase of the RL process.
 
 The diversity measures implemented are:
 - diversity measures based on Pearson's correlation coefficient, cosine similarity, and Euclidean distance (unsupervised)
